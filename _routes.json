@@ -1,0 +1,4 @@
+[
+  { "pattern": "/dns-query", "entrypoint": "dns-query" },
+  { "pattern": "/*", "entrypoint": "index.html" }
+]
