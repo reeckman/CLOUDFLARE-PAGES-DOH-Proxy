@@ -19,7 +19,7 @@
 在 Cloudflare Pages 控制面板中，找到您的项目，点击进入项目的设置页面。
 选择 Environment Variables（环境变量）部分。
 创建一个新的环境变量，名称为 DOH_SERVERS，值为您自己的 DoH（DNS over HTTPS）服务器的地址。可以使用多个 DoH 服务器，用英文逗号隔开。例如：
-https://doh.example1.com,https://doh.example2.com,https://doh.example3.com](https://dns.google/dns-query,https://cloudflare-dns.com/dns-query,https://dns.quad9.net/dns-query
+(https://dns.google/dns-query,https://cloudflare-dns.com/dns-query,https://dns.quad9.net/dns-query
 
 这样设置之后，系统会自动轮询这些 DoH 服务器，并优先使用响应最快的服务器。
 4. 使用 Pages 的域名或自定义域名 + /dns-query 路径
